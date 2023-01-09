@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CTF Registration</title>
+  </head>
+  <body>
+      <h1 class="primary_heading">CTF Registration</h1>
+    <div class="form">
+      <form action="/" method="POST">
+        <input type="text" placeholder="Name" name="Name" id="name" required/>
+        <input type="text" placeholder="Registration Number" name="Regno" id="regno" maxlength="9" required/>
+        <input type="email" placeholder="Email" name="Email" id="email" required/>
+        <input type="text" name="Phone" placeholder="Phone Number" id="phone" minlength="10" maxlength="10" required/>
+        <textarea name="Message" id="Message" placeholder="Why would do you like to join this session?" cols="30" rows="10" maxlength="200" style="resize: none"></textarea>
+        <button type="submit" class="btn-submit">Submit</button>
+      </div>
+      </body>
+</html>
